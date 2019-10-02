@@ -1,0 +1,40 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{CF995D7E-1DE9-4AEE-9059-80341818446F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApplications", "WebApplications", "{560BAA0A-9110-4C36-8654-D3E991832754}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{885FE5B9-9436-4F08-BD84-2F941045C473}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookBook.Data.Tests", "Tests\CookBook.Data.Tests\CookBook.Data.Tests.csproj", "{C5423D45-5AED-4366-8940-D065919EB200}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookBook.Data", "Code\Dependencies\CookBook.Data\CookBook.Data.csproj", "{75D0C49E-1564-4695-935E-3AB1F79BD3A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookBook.restapi", "Code\WebApplications\CookBook.restapi\CookBook.restapi.csproj", "{0C388CAB-0209-44FE-8B6F-FCA2E9737BEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5423D45-5AED-4366-8940-D065919EB200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5423D45-5AED-4366-8940-D065919EB200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5423D45-5AED-4366-8940-D065919EB200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5423D45-5AED-4366-8940-D065919EB200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75D0C49E-1564-4695-935E-3AB1F79BD3A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75D0C49E-1564-4695-935E-3AB1F79BD3A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75D0C49E-1564-4695-935E-3AB1F79BD3A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75D0C49E-1564-4695-935E-3AB1F79BD3A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C388CAB-0209-44FE-8B6F-FCA2E9737BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C388CAB-0209-44FE-8B6F-FCA2E9737BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C388CAB-0209-44FE-8B6F-FCA2E9737BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C388CAB-0209-44FE-8B6F-FCA2E9737BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C5423D45-5AED-4366-8940-D065919EB200} = {885FE5B9-9436-4F08-BD84-2F941045C473}
+		{75D0C49E-1564-4695-935E-3AB1F79BD3A6} = {CF995D7E-1DE9-4AEE-9059-80341818446F}
+		{0C388CAB-0209-44FE-8B6F-FCA2E9737BEB} = {560BAA0A-9110-4C36-8654-D3E991832754}
+	EndGlobalSection
+EndGlobal
